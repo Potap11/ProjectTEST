@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Каталог — Зёрна и Дым</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="catalog">
+  <div class="catalog__head">
+    <span class="catalog__eyebrow">Свежая обжарка</span>
+    <h1 class="catalog__title">Зерно недели</h1>
+    <p class="catalog__lede">Восемь сортов в обжарке — от лёгкой цветочной до глубокой дымной. Шкала под каждой карточкой показывает степень обжарки, а не чужое мнение.</p>
+  </div>
+
+  <div class="catalog__grid">
+
+    <article class="card">
+      <div class="card__media">
+        <img src="https://images.unsplash.com/photo-1559056199-641a0ac8b55e?q=80&w=800&auto=format&fit=crop" alt="Эфиопия Йиргачеффе">
+        <span class="card__tag">Новинка</span>
+      </div>
+      <div class="card__body">
+        <p class="card__origin">Эфиопия · Йиргачеффе</p>
+        <h3 class="card__name">Цветочный купаж</h3>
+        <p class="card__notes">Жасмин, бергамот, тростниковый сахар</p>
+        <div class="roast" aria-label="Степень обжарки: лёгкая, 2 из 5">
+          <span class="roast__label">Обжарка</span>
+          <div class="roast__bars">
+            <i class="is-on"></i><i class="is-on"></i><i></i><i></i><i></i>
+          </div>
+        </div>
+        <div class="card__footer">
+          <span class="card__price">890 ₴ <small>/ 250 г</small></span>
+          <button class="btn">В корзину</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card__media">
+        <img src="https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?q=80&w=800&auto=format&fit=crop" alt="Колумбия Уила">
+      </div>
+      <div class="card__body">
+        <p class="card__origin">Колумбия · Уила</p>
+        <h3 class="card__name">Карамельный баланс</h3>
+        <p class="card__notes">Карамель, грецкий орех, красное яблоко</p>
+        <div class="roast" aria-label="Степень обжарки: средняя, 3 из 5">
+          <span class="roast__label">Обжарка</span>
+          <div class="roast__bars">
+            <i class="is-on"></i><i class="is-on"></i><i class="is-on"></i><i></i><i></i>
+          </div>
+        </div>
+        <div class="card__footer">
+          <span class="card__price">760 ₴ <small>/ 250 г</small></span>
+          <button class="btn">В корзину</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card__media">
+        <img src="https://images.unsplash.com/photo-1442512595331-e89e73853f31?q=80&w=800&auto=format&fit=crop" alt="Бразилия Серрадо">
+      </div>
+      <div class="card__body">
+        <p class="card__origin">Бразилия · Серрадо</p>
+        <h3 class="card__name">Шоколадная основа</h3>
+        <p class="card__notes">Тёмный шоколад, миндаль, патока</p>
+        <div class="roast" aria-label="Степень обжарки: средне-тёмная, 4 из 5">
+          <span class="roast__label">Обжарка</span>
+          <div class="roast__bars">
+            <i class="is-on"></i><i class="is-on"></i><i class="is-on"></i><i class="is-on"></i><i></i>
+          </div>
+        </div>
+        <div class="card__footer">
+          <span class="card__price">710 ₴ <small>/ 250 г</small></span>
+          <button class="btn">В корзину</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card__media">
+        <img src="https://fnb.coffee/wp-content/uploads/2024/11/Dark-Roast-Coffee-Beans.webp" alt="Суматра Мандхелинг">
+        <span class="card__tag card__tag--limited">Лимитка</span>
+      </div>
+      <div class="card__body">
+        <p class="card__origin">Индонезия · Суматра</p>
+        <h3 class="card__name">Дымный мандхелинг</h3>
+        <p class="card__notes">Кедр, тёмный изюм, табак</p>
+        <div class="roast" aria-label="Степень обжарки: тёмная, 5 из 5">
+          <span class="roast__label">Обжарка</span>
+          <div class="roast__bars">
+            <i class="is-on"></i><i class="is-on"></i><i class="is-on"></i><i class="is-on"></i><i class="is-on"></i>
+          </div>
+        </div>
+        <div class="card__footer">
+          <span class="card__price">980 ₴ <small>/ 250 г</small></span>
+          <button class="btn">В корзину</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card__media">
+        <img src="https://images.unsplash.com/photo-1497935586351-b67a49e012bf?q=80&w=800&auto=format&fit=crop" alt="Кения Ньери">
+      </div>
+      <div class="card__body">
+        <p class="card__origin">Кения · Ньери</p>
+        <h3 class="card__name">Ягодная кислинка</h3>
+        <p class="card__notes">Чёрная смородина, томат, лайм</p>
+        <div class="roast" aria-label="Степень обжарки: лёгкая, 2 из 5">
+          <span class="roast__label">Обжарка</span>
+          <div class="roast__bars">
+            <i class="is-on"></i><i class="is-on"></i><i></i><i></i><i></i>
+          </div>
+        </div>
+        <div class="card__footer">
+          <span class="card__price">920 ₴ <small>/ 250 г</small></span>
+          <button class="btn">В корзину</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card__media">
+        <img src="https://images.unsplash.com/photo-1518057111178-44a106bad636?q=80&w=800&auto=format&fit=crop" alt="Гватемала Антигуа">
+      </div>
+      <div class="card__body">
+        <p class="card__origin">Гватемала · Антигуа</p>
+        <h3 class="card__name">Пряный антигуа</h3>
+        <p class="card__notes">Корица, какао, апельсиновая цедра</p>
+        <div class="roast" aria-label="Степень обжарки: средняя, 3 из 5">
+          <span class="roast__label">Обжарка</span>
+          <div class="roast__bars">
+            <i class="is-on"></i><i class="is-on"></i><i class="is-on"></i><i></i><i></i>
+          </div>
+        </div>
+        <div class="card__footer">
+          <span class="card__price">770 ₴ <small>/ 250 г</small></span>
+          <button class="btn">В корзину</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="card card--sold">
+      <div class="card__media">
+        <img src="https://oddcoffee.in/cdn/shop/files/OL_Smoky_4811ea36-6f12-4e5c-84e8-23ba1326dd48_713x.png?v=1755772263" alt="Коста-Рика Тарразу">
+        <span class="card__tag card__tag--out">Распродано</span>
+      </div>
+      <div class="card__body">
+        <p class="card__origin">Коста-Рика · Тарразу</p>
+        <h3 class="card__name">Медовый тарразу</h3>
+        <p class="card__notes">Мёд, абрикос, ваниль</p>
+        <div class="roast" aria-label="Степень обжарки: средняя, 3 из 5">
+          <span class="roast__label">Обжарка</span>
+          <div class="roast__bars">
+            <i class="is-on"></i><i class="is-on"></i><i class="is-on"></i><i></i><i></i>
+          </div>
+        </div>
+        <div class="card__footer">
+          <span class="card__price">840 ₴ <small>/ 250 г</small></span>
+          <button class="btn" disabled>Нет в наличии</button>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="card__media">
+        <img src="https://images.unsplash.com/photo-1610632380989-680fe40816c6?q=80&w=800&auto=format&fit=crop" alt="Вьетнам Робуста">
+      </div>
+      <div class="card__body">
+        <p class="card__origin">Вьетнам · Дак Лак</p>
+        <h3 class="card__name">Плотная робуста</h3>
+        <p class="card__notes">Тёмный шоколад, орех, дым</p>
+        <div class="roast" aria-label="Степень обжарки: тёмная, 5 из 5">
+          <span class="roast__label">Обжарка</span>
+          <div class="roast__bars">
+            <i class="is-on"></i><i class="is-on"></i><i class="is-on"></i><i class="is-on"></i><i class="is-on"></i>
+          </div>
+        </div>
+        <div class="card__footer">
+          <span class="card__price">540 ₴ <small>/ 250 г</small></span>
+          <button class="btn">В корзину</button>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+</body>
+</html>
